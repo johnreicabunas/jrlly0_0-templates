@@ -29,5 +29,8 @@ Keep `TEMPLATES[]` in sync with `../wiki/02-product/templates-catalog.md`.
 
 ## Deploy
 
-Static host (Vercel / Netlify / GitHub Pages); set the project root to this
-`site/` folder. See `../wiki/03-website/website-plan.md`.
+- **Live:** https://jrlly00-templates.vercel.app
+- **Repo:** https://github.com/johnreicabunas/jrlly0_0-templates
+- Redeploy: commit + push, then `npx vercel deploy --prod --yes` from this
+  folder. (Auto-deploy on push pending Vercel GitHub App access — see
+  `../wiki/03-website/website-plan.md`.)
